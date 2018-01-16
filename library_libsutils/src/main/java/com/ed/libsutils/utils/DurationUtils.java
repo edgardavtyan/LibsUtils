@@ -1,4 +1,4 @@
-package com.ed.libsutils;
+package com.ed.libsutils.utils;
 
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;

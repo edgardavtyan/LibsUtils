@@ -1,4 +1,4 @@
-package com.ed.libsutils;
+package com.ed.libsutils.utils;
 
 public final class ColorUtils {
 	private ColorUtils() {}

@@ -1,4 +1,4 @@
-package com.ed.libsutils;
+package com.ed.libsutils.utils;
 
 import android.util.Log;
 

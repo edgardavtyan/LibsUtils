@@ -1,4 +1,4 @@
-package com.ed.libsutils;
+package com.ed.libsutils.utils;
 
 public class Strings {
 	public static String join(int[] array, String separator) {
