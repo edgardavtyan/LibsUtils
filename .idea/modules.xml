@@ -3,8 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LibsUtils.iml" filepath="$PROJECT_DIR$/LibsUtils.iml" />
-      <module fileurl="file://C:\Code\Android\LibsUtils\app\app.iml" filepath="C:\Code\Android\LibsUtils\app\app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library_libsutils/library_libsutils.iml" filepath="$PROJECT_DIR$/library_libsutils/library_libsutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>
