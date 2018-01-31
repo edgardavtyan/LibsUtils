@@ -57,4 +57,10 @@ public final class WindowUtils {
 			return -1;
 		}
 	}
+
+	public static int getStatusBarHeight(Activity activity) {
+		Window window = activity.getWindow();
+		View contentView = activity.findViewById(android.R.id.content);
+		return window.getDecorView().getHeight() - contentView.getHeight();
+	}
 }
