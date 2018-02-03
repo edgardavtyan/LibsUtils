@@ -19,11 +19,7 @@ android {
 android.libraryVariants.all { variant ->
     variant.outputs.all { output ->
         if (outputFile != null && outputFileName.endsWith('.aar')) {
-            if (archivesBaseName == 'app') {
-                outputFileName = "libsutils_base-${version}.aar"
-            } else {
-                outputFileName = "${archivesBaseName}-${version}.aar"
-            }
+            outputFileName = "../../../../aar/libsutils_base-${version}.aar"
         }
     }
 }
