@@ -76,4 +76,15 @@ public final class WindowUtils {
         activity.getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         return displayMetrics.widthPixels;
     }
+
+	public static void addSystemUiFlag(Activity activity, int flag) {
+		int originalFlags = activity.getWindow().getDecorView().getSystemUiVisibility();
+		activity.getWindow().getDecorView().setSystemUiVisibility(originalFlags | flag);
+	}
+
+	public static void removeSystemUiFlag(Activity activity, int flag) {
+		int flags = activity.getWindow().getDecorView().getSystemUiVisibility();
+		flags &= ~flag;
+		activity.getWindow().getDecorView().setSystemUiVisibility(flags);
+	}
 }
